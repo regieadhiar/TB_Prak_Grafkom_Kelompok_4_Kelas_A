@@ -2680,6 +2680,7 @@ void init() {
     glEnable(GL_DEPTH_TEST);
     glEnable(GL_LIGHTING);           // tetap nyalakan lighting secara global
     glEnable(GL_COLOR_MATERIAL);
+    glEnable(GL_NORMALIZE);
     glColorMaterial(GL_FRONT, GL_AMBIENT_AND_DIFFUSE);
     glShadeModel(GL_SMOOTH);
 
